@@ -1,0 +1,5 @@
+<templates>
+    <t t-name="GeoLocationField" owl="1">
+        <input t-ref="geoInput" type="text" readonly="1"/>
+    </t>
+</templates>
