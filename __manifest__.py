@@ -1,4 +1,21 @@
 # -*- coding: utf-8 -*-
+#############################################################################
+#
+#    Author: Roberto Camejo(<roberto.camejo@gmail.com>)
+#
+#    You can modify it under the terms of the GNU LESSER
+#    GENERAL PUBLIC LICENSE (LGPL v3), Version 3.
+#
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU LESSER GENERAL PUBLIC LICENSE (LGPL v3) for more details.
+#
+#    You should have received a copy of the GNU LESSER GENERAL PUBLIC LICENSE
+#    (LGPL v3) along with this program.
+#    If not, see <http://www.gnu.org/licenses/>.
+#
+#############################################################################
 {
     'name': "GeoLocationField Widget",
 
@@ -22,8 +39,6 @@
     # for the full list
     'category': 'Tools',
     'version': '16.0.1.0.0',
-    'price': 9.99,
-    'currency': 'USD',
     # any module necessary for this one to work correctly
     'depends': ['base'],
 
@@ -35,6 +50,8 @@
             'geolocation_widget/static/src/xml/*.xml',
         ],
     },
+    'license': 'LGPL-3',
+    'images': ['static/description/*'],
     'application': True,
     'installable': True,
     'auto_install': False,
