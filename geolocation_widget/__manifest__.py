@@ -17,7 +17,7 @@
 #
 #############################################################################
 {
-    'name': "GeoLocationField Widget",
+    'name': "GeoLocation Widget",
 
     'summary': """
         The GeoLocationField widget allows users to input and visualize geographical coordinates, 
