@@ -1,4 +1,4 @@
-Odoo 16 Full Geolocation Widget
+Odoo 16 Geolocation Widget
 ===========================
 Geolocation widget for Odoo 16 both community and enterprise editions.
 
@@ -21,4 +21,4 @@ Bugs are tracked on GitHub Issues. In case of trouble, please check there if you
 
 Further information
 ===================
-HTML Description: `<static/description/index.html>`__
+HTML Description: `<static/description/index.html>`
