@@ -21,4 +21,4 @@ Bugs are tracked on GitHub Issues. In case of trouble, please check there if you
 
 Further information
 ===================
-HTML Description: `<static/description/index.html>`
+
