@@ -19,6 +19,5 @@ Bug Tracker
 -----------
 Bugs are tracked on GitHub Issues. In case of trouble, please check there if your issue has already been reported.
 
-Further information
 ===================
 
