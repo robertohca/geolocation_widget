@@ -10,9 +10,12 @@ export class GeoLocationField extends Component {
     setup() {
         super.setup();
         this.inputRef = useRef('geoInput');
+        this.updateButton = useRef("updateButton");
         onMounted(() => {
-            this._getCurrentLocation();
             this.inputRef.el.addEventListener('click', this._openGoogleMaps.bind(this));
+            this.updateButton.el.addEventListener("click", this._getCurrentLocation.bind(this));
+            this.inputRef.el.value = this.props.value || "";
+
         });
     }
 
